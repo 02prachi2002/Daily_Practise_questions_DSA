@@ -4,17 +4,17 @@ using namespace std;
 int main()
 
 {
-    int num,n;
+    int num;
    
     cout<< "Enter the num of pattern you want:";
     cin>>num;
-    for(int i=0;i<num;i++)
+    for(int row=0;row<num;row++)
     {
-         n = num +1;
-        for(int j=0; j<num+1;j++)
+        int start = row +1;
+        for(int col=0; col<row+1;col++)
         {
-            cout<<n <<" ";
-            n++;
+            cout<<start <<" ";
+            start++;
         }
         cout<<endl;
     }
