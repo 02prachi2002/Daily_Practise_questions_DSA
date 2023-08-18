@@ -1,0 +1,1 @@
+//tobring allthe negative and positive to opposite side of the array
